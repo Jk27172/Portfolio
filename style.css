@@ -1,6 +1,4 @@
-/* ================================
-   GLOBAL STYLES
-================================ */
+/* GLOBAL STYLES */
 
 * {
     margin: 0;
@@ -25,9 +23,7 @@ a {
 }
 
 
-/* ================================
-   NAVIGATION
-================================ */
+/* NAVIGATION */
 
 .header {
     width: 100%;
@@ -115,9 +111,7 @@ a {
 }
 
 
-/* ================================
-   HERO SECTION
-================================ */
+/* HERO SECTION */
 
 .hero {
     min-height: 100vh;
@@ -264,9 +258,7 @@ a {
 }
 
 
-/* ================================
-   SOCIAL LINKS
-================================ */
+/* SOCIAL LINKS */
 
 .social-links {
     display: flex;
@@ -299,9 +291,7 @@ a {
 }
 
 
-/* ================================
-   GAME SHOWCASE
-================================ */
+/* GAME SHOWCASE */
 
 .game-showcase {
     width: 100%;
@@ -406,9 +396,7 @@ a {
     background-color: #A31621;
 }
 
-/* ================================
-   ABOUT SECTION
-================================ */
+/* ABOUT SECTION */
 
 .about {
     padding: 100px 7%;
@@ -528,9 +516,7 @@ a {
     font-size: 12px;
 }
 
-/* ================================
-   SKILLS SECTION
-================================ */
+/* SKILLS SECTION */
 
 .skills {
     padding: 100px 7%;
@@ -608,9 +594,7 @@ a {
     border-color: #A31621;
 }
 
-/* ================================
-   FEATURED PROJECTS
-================================ */
+/* FEATURED PROJECTS */
 
 .projects {
     padding: 100px 7%;
@@ -768,9 +752,7 @@ a {
     font-size: 11px;
 }
 
-/* ================================
-   CERTIFICATES SECTION
-================================ */
+/* CERTIFICATES SECTION */
 
 .certificates {
     padding: 100px 7%;
@@ -843,9 +825,7 @@ a {
     font-size: 11px;
 }
 
-/* ================================
-   CONTACT SECTION
-================================ */
+/* CONTACT SECTION */
 
 .contact {
     padding: 110px 7%;
@@ -944,9 +924,7 @@ a {
 }
 
 
-/* ================================
-   FOOTER
-================================ */
+/* FOOTER */
 
 .footer {
     padding: 30px 7%;
@@ -985,9 +963,7 @@ a {
     text-align: right;
 }
 
-/* ================================
-   PROJECT DETAIL PAGE
-================================ */
+/* PROJECT DETAIL PAGE */
 
 .project-page-container {
     max-width: 1200px;
@@ -1127,9 +1103,7 @@ a {
 }
 
 
-/* ================================
-   PROJECT SECTIONS
-================================ */
+/* PROJECT SECTIONS */
 
 .project-overview,
 .project-features {
@@ -1232,9 +1206,7 @@ a {
 }
 
 
-/* ================================
-   FEATURES
-================================ */
+/* FEATURES */
 
 .features-grid {
     display: grid;
@@ -1292,9 +1264,7 @@ a {
     line-height: 1.7;
 }
 
-/* ================================
-   GAMEPLAY
-================================ */
+/* GAMEPLAY */
 
 .project-gameplay {
     padding: 90px 7%;
@@ -1325,9 +1295,7 @@ a {
 }
 
 
-/* ================================
-   PROJECT GALLERY
-================================ */
+/* PROJECT GALLERY */
 
 .project-gallery {
     padding: 90px 7%;
@@ -1362,9 +1330,7 @@ a {
     border-color: #A31621;
 }
 
-/* ================================
-   CHALLENGES & SOLUTIONS
-================================ */
+/* CHALLENGES & SOLUTIONS */
 
 .project-challenges {
     padding: 90px 7%;
@@ -1455,9 +1421,7 @@ a {
     margin-bottom: 18px;
 }
 
-/* ================================
-   MOBILE NAVIGATION
-================================ */
+/* MOBILE NAVIGATION */
 
 .menu-toggle {
     display: none;
@@ -1473,9 +1437,7 @@ a {
     margin-left: 15px;
 }
 
-/* ================================
-   RESPONSIVE DESIGN
-================================ */
+/* RESPONSIVE DESIGN */
 
 @media (max-width: 900px) {
 
