@@ -28,9 +28,9 @@ function changeRole() {
 // Change the role every 3 seconds
 setInterval(changeRole, 3000);
 
-// =================================
+
 // GAME SHOWCASE SLIDER
-// =================================
+
 
 const projects = [
     {
@@ -105,9 +105,9 @@ setInterval(() => {
 
 }, 5000);
 
-// =================================
+
 // MOBILE NAVIGATION
-// =================================
+
 
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
