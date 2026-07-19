@@ -121,6 +121,7 @@ a {
     min-height: 100vh;
 
     max-width: 1400px;
+    min-width: 0;
     margin: 0 auto;
 
     padding: 140px 7% 80px;
@@ -139,6 +140,7 @@ a {
 
 .hero-content {
     max-width: 600px;
+    min-width: 0;
 }
 
 .hero-intro {
@@ -299,10 +301,14 @@ a {
 
 .game-showcase {
     width: 100%;
+    min-width: 0;
+    max-width: 100%;
 }
 
 .showcase-card {
     width: 100%;
+    min-width: 0;
+    max-width: 100%;
 
     border-radius: 12px;
 
@@ -1542,8 +1548,22 @@ a {
     }
 
     .hero {
+        width: 100%;
+        max-width: 100%;
         padding-left: 5%;
         padding-right: 5%;
+        overflow: hidden;
+    }
+
+    .game-showcase,
+    .showcase-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .showcase-info {
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     .hero h1 {
