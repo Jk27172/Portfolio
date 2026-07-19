@@ -1564,7 +1564,7 @@ a {
     .showcase-info {
         flex-wrap: wrap;
         gap: 10px;
-    }
+}
 
     .hero h1 {
         font-size: 55px;
