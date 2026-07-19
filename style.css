@@ -45,6 +45,7 @@ a {
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -1441,8 +1442,18 @@ a {
 
 @media (max-width: 900px) {
 
+    .navbar {
+        justify-content: space-between;
+    }
+
     .menu-toggle {
         display: block;
+        margin-left: 15px;
+        flex-shrink: 0;
+    }
+
+    .resume-btn {
+        margin-left: auto;
     }
 
     .nav-links {
