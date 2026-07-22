@@ -765,6 +765,52 @@ a {
     font-size: 11px;
 }
 
+/* 3D & ANIMATION SECTION */
+
+.animation-work {
+    padding: 100px 7%;
+    background-color: #0B0B0B;
+}
+
+.animation-card {
+    max-width: 500px;
+    margin: 0 auto;
+
+    background-color: #161616;
+    border: 1px solid #242424;
+    border-radius: 12px;
+
+    overflow: hidden;
+}
+
+.animation-video {
+    width: 100%;
+    background-color: #000;
+}
+
+.animation-video video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.animation-content {
+    padding: 25px;
+}
+
+.animation-content h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.animation-content p {
+    color: #A8A8A8;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
 /* CERTIFICATES SECTION */
 
 .certificates {
@@ -1704,5 +1750,14 @@ a {
 
     .certificates-grid {
         grid-template-columns: 1fr;
+    }
+
+    .animation-work {
+        padding: 70px 5%;
+    }
+
+    .animation-card {
+        width: 100%;
+        max-width: 100%;
     }
 }
